@@ -6,4 +6,4 @@ gem "sinatra" # web app
 gem 'pry' # debugger
 gem 'nokogiri' # xml parsing
 gem 'aws-sdk-appconfigdata'
-gem 'rackup'
+gem 'rackup', '>= 2.2.0'
