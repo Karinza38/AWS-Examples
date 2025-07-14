@@ -1,37 +1,37 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-eventstream (1.3.0)
-    aws-sigv4 (1.8.0)
+    aws-eventstream (1.4.0)
+    aws-sigv4 (1.12.1)
       aws-eventstream (~> 1, >= 1.0.2)
+    base64 (0.3.0)
     coderay (1.1.3)
-    faraday (2.9.0)
-      faraday-net_http (>= 2.0, < 3.2)
-    faraday-net_http (3.1.0)
-      net-http
+    faraday (2.8.1)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
     method_source (1.1.0)
     multi_json (1.15.0)
-    net-http (0.4.1)
-      uri
-    opensearch-aws-sigv4 (1.2.1)
+    opensearch-aws-sigv4 (1.3.0)
       aws-sigv4 (>= 1)
-      opensearch-ruby (>= 1.0.1)
-    opensearch-ruby (3.3.0)
+      opensearch-ruby (>= 1.0.1, < 4.0)
+    opensearch-ruby (3.4.0)
       faraday (>= 1.0, < 3)
       multi_json (>= 1.0)
     ox (2.14.18)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    uri (0.13.0)
+    ruby2_keywords (0.0.5)
 
 PLATFORMS
   ruby
   x86_64-linux
 
 DEPENDENCIES
-  opensearch-aws-sigv4
-  opensearch-ruby
+  opensearch-aws-sigv4 (>= 1.3.0)
+  opensearch-ruby (>= 3.4.0)
   ox
   pry
 

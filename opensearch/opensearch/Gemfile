@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'opensearch-ruby'
-gem 'opensearch-aws-sigv4'
+gem 'opensearch-ruby', '>= 3.4.0'
+gem 'opensearch-aws-sigv4', '>= 1.3.0'
 gem 'ox'
 gem 'pry'
